@@ -20,7 +20,7 @@ const Calculator = {
 }
 
 function actionApplyer(start, array){ 
-    array.map(function(func){
+    array.reduce(function(func){
         return func(start)
     })
     return start
