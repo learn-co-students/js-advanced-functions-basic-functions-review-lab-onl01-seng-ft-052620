@@ -28,10 +28,8 @@ const Calculator = {
 }
 
 function actionApplyer(start, arr){
-    if (arr.length != 0){
-        for (let i = 0; i < arr.length; i++){
-            start = arr[i](start);
-        } 
-    }
+    for (let i = 0; i < arr.length; i++){
+        start = arr[i](start);
+    } 
     return start;
 }
