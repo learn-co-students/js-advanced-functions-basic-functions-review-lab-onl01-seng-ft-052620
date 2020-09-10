@@ -25,3 +25,5 @@ function actionApplyer(num,actions){
         return action(res)
     },num)
 }
+
+
